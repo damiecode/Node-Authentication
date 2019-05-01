@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul.success li, ul.info li, ul.error li {
+  margin: 20px 0 20px 0;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  list-style: none
+}
+
+ul.success li {
+  color: #3c763d;
+  background: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+ul.info li {
+  color: #31708f;
+  background: #d3edf7;
+  border-color: #bcc8f1;
+}
+
+ul.error li {
+  color: #3c763d;
+  background: #dff0d8;
+  border-color: #d6e9c6;
+}
